@@ -1,0 +1,45 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Output directory
+dist/
+build/
+out/
+
+# TypeScript compiled files
+*.tsbuildinfo
+*.d.ts
+*.js
+*.js.map
+*.jsx
+*.jsx.map
+
+# Logs
+logs/
+*.log
+*.log.*
+log/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+# .vscode/
+# .idea/
+# *.suo
+# *.ntvs*
+# *.njsproj
+# *.sln
+# *.sw?
+# .history/
+
+# Environment variables
+.env
+.env.*

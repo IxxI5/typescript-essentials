@@ -1,0 +1,17 @@
+{
+  "target": "es2019", // or "es6", "es2016", "es2017", etc.
+  "module": "commonjs", // or another module system
+  "strict": true, // Optional, for strict type-checking
+  "esModuleInterop": true, // Optional, allows default imports from modules
+  "skipLibCheck": true, // Optional, skips type checking of declaration files
+  "compilerOptions": {
+    "lib": ["es2019", "dom"], // Add "dom" to the lib array
+    "outDir": "../../dist/ts09_functions", // Output directory for compiled files
+    "rootDir": "./", // Source files directory (current directory)
+    "sourceMap": false // Optional, generates source maps
+  },
+  "include": [
+    "**/*" // Include all TypeScript files in this directory and subdirectories
+  ],
+  "exclude": ["node_modules"]
+}

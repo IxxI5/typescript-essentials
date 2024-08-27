@@ -1,0 +1,25 @@
+/todo-app
+│
+├── /src
+│   ├── /components
+│   │   ├── AddTodo.tsx
+│   │   ├── App.tsx
+│   │   ├── TodoList.tsx
+│   │
+│   ├── /context
+│   │   ├── TodoContext.tsx
+│   │
+│   ├── /hooks
+│   │   ├── useTodos.ts
+│   │
+│   ├── /types
+│   │   ├── index.ts
+│   │
+│   └── index.tsx
+│   
+│
+├── /public
+│   ├── index.html
+│
+├── package.json
+└── tsconfig.json
