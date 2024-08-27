@@ -27,7 +27,8 @@ After downloading the typescript-essentials repository, follow these steps:
 - **Launch** a sub-project e.g. ts01_basic_types from Terminal:
 
   ```javascript
-  npm run build:ts01                 /* compiles the ts01_basic_types/index.ts to ts01_basic_types/index.js */
+  npm run build:ts01                 /* compiles the ts01_basic_types/index.ts to
+                                        ts01_basic_types/index.js */
 
   npm run start:ts01                 /* runs the ts01_basic_types/index.js */
   ```
@@ -44,7 +45,8 @@ The following sections, **VS Code Configuration** and **Project Configuration**,
 
   npm install -g typescript          /* install TypeScript globally */
 
-  /* Important Note: Once TypeScript is installed globally, you don't need to reinstall it for any new project. */
+  /* Important Note: Once TypeScript is installed globally, you don't need to reinstall it
+     for any new project. */
   ```
 
 ### Project Configuration
@@ -90,8 +92,9 @@ The following sections, **VS Code Configuration** and **Project Configuration**,
 - **Create** the **package.json** file using the Terminal:
 
   ```javascript
-   npm init                           /* creates the package.json file, which contains the project's
-                                         description and manages its dependencies (packages) */
+   npm init                           /* creates the package.json file, which contains the
+                                         project's description and manages its dependencies
+                                         (packages) */
   ```
 
   Press **Enter** for all prompts. Open the **package.json** file and modify it as needed.
@@ -126,7 +129,8 @@ The following sections, **VS Code Configuration** and **Project Configuration**,
 - **Launch** the myProject from Terminal:
 
   ```javascript
-  npm run build:myProject                 /* compiles the myProject/src/index.ts to myProject/dist/index.js */
+  npm run build:myProject                 /* compiles the myProject/src/index.ts to
+                                             myProject/dist/index.js */
 
   npm run start:myProject                 /* runs the myProject/dist/index.js */
   ```
