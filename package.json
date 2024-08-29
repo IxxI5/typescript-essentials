@@ -50,7 +50,9 @@
     "build:ts22": "npx tsc --project src/ts22_type_inference_advanced/tsconfig.json",
     "start:ts22": "node dist/ts22_type_inference_advanced/index.js",
     "build:ts23": "npm --prefix src/ts23_react_typescript/reactapp run build",
-    "start:ts23": "npm --prefix src/ts23_react_typescript/reactapp start"
+    "start:ts23": "npm --prefix src/ts23_react_typescript/reactapp start",
+    "build:ts24": "npx tsc --project src/ts24_exceptions_handling/tsconfig.json",
+    "start:ts24": "node dist/ts24_exceptions_handling/index.js"
   },
   "author": "IxxI5",
   "license": "MIT",
