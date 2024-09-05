@@ -1,8 +1,7 @@
 // index.ts
 
-/*
-    Intersection types in TypeScript allow you to combine multiple types into one. This can be particularly useful for creating complex types that need to adhere to multiple constraints simultaneously. 
- */
+// Intersection types in TypeScript allow you to combine multiple types into one.
+// This can be particularly useful for creating complex types that need to adhere to multiple constraints simultaneously.
 
 // Define the basic types that will be used in intersection
 interface Person {
